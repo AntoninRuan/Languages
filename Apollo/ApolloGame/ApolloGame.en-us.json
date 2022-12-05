@@ -409,7 +409,7 @@
   },
   {
     "Identifier": "RadioCommReq_RadioCheck",
-    "Text": "{0}, we read you {1}/5."
+    "Text": "{0}, we read you {1} by 5."
   },
   {
     "Identifier": "RadioCommReq_InternalPower",
@@ -1054,5 +1054,37 @@
   {
     "Identifier": "RadioCommMenu_PhaseTPM",
     "Text": "TPM"
+  },
+  {
+    "Identifier": "RadioCommMessage_TooHighGLoads",
+    "Text": "Your G-Loads are too high."
+  },
+  {
+    "Identifier": "GameOverReason_TooHighGLoads",
+    "Text": "Structural and crew damage due to too high G-Forces."
+  },
+  {
+    "Identifier": "GameOverReason_Crashed",
+    "Text": "Crashed during landing."
+  },
+  {
+    "Identifier": "GameOverReason_NonCMEntry",
+    "Text": "Tried to perform an atmospheric entry while attached to a stage. Only the CM can reenter."
+  },
+  {
+    "Identifier": "GameOverReason_LMEntry",
+    "Text": "Tried to perform an atmospheric entry with the LM attached to the CM."
+  },
+  {
+    "Identifier": "GameOverReason_LMEntry",
+    "Text": "Tried to perform an atmospheric entry with the LM attached to the CM."
+  },
+  {
+    "Identifier": "BurnPlanner_UplinkPreferred",
+    "Text": "(OPTIONAL) IMU: SET PREFERRED"
+  },
+  {
+    "Identifier": "BurnPlanner_CommsPreferredSet",
+    "Text": "Preferred burn direction set, use P52 option 1 to torque the gyros before requesting the burn. Set ORDEAL to INRTL and Key V37E 52E V22E +1E PRO PRO to do this."
   }
 ]
